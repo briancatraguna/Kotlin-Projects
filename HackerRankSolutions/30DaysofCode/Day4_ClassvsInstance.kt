@@ -23,7 +23,7 @@ class Person(initialAge:Int){
     }
 }
 
-fun main(){
+fun main(args: Array<String>){
     val numTestCases: Int = readLine()!!.toInt()
     var person = Person(0)
     var age = 0
