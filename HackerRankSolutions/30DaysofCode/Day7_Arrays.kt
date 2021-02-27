@@ -1,6 +1,6 @@
 import java.util.Scanner
 
-fun main(){
+fun main(args: Array<String>){
     val reader = Scanner(System.`in`)
     val n:Int = reader.nextInt()
     val a = IntArray(n)

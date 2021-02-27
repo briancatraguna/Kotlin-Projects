@@ -1,6 +1,6 @@
 import java.util.Scanner
 
-fun main(){
+fun main(args: Array<String>){
     //Init scanner object
     val reader = Scanner(System.`in`)
     //Size of map
